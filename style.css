@@ -1,0 +1,85 @@
+body
+{
+    font-family:monospace;
+    animation:example 5s infinite;
+}
+@keyframes example
+{
+    0%
+    {
+    background:paleturquoise;
+
+    }
+    50%
+    {
+        background: rgba(250, 202, 60, 0.5);
+    
+    }
+    100% {
+      background:lavender;  
+    
+    } 
+}
+.heading
+{
+font-size:30px;
+width:100%;
+margin:0px; /*So that no space is left on the top of the webpage*/
+color:black;
+}
+
+.header2
+{
+    float:none;
+    padding:5px;
+    border-radius:25px;
+    color:black;
+    font-size:25px;
+   
+}
+
+.list
+{
+    font-size:20px;
+    color:black;
+    box-shadow:0px 0px 12px white;
+}
+
+.one
+{
+    box-shadow:10px 10px 50px orange;
+}
+.two
+{
+    box-shadow:10px 10px 50px blue;
+}
+
+.object
+{
+    box-shadow:2px 2px 12px indigo;
+    margin-top:550px;
+    font-size:20px;
+}
+
+.accuracy
+{
+    box-shadow:2px 2px 12px indigo;
+    font-size:20px;
+}
+
+.footer
+{
+    position:fixed;
+    bottom:0;
+    background-color:lightslategrey;
+    text-align:center;
+    width:100%;
+    line-height:2.5;
+    color:white;
+    font-size:20px;
+}
+
+canvas
+{
+    border:ridge 2px black;
+}
